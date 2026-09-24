@@ -1,0 +1,131 @@
+/* Clean, simple solid styling for Placement Hub - Human College Project Theme */
+
+.root {
+    -fx-font-family: 'Segoe UI', Arial, sans-serif;
+    -fx-background-color: #f1f5f9;
+    -fx-text-fill: #0f172a;
+}
+
+/* Tabs */
+.tab-pane .tab-header-area {
+    -fx-background-color: #0f172a;
+    -fx-padding: 0;
+}
+
+.tab-pane .tab-header-area .tab-header-background {
+    -fx-background-color: #0f172a;
+}
+
+.tab {
+    -fx-background-color: #1e293b;
+    -fx-background-radius: 4 4 0 0;
+    -fx-padding: 10 20;
+    -fx-border-color: transparent;
+}
+
+.tab:selected {
+    -fx-background-color: #2563eb;
+}
+
+.tab .tab-label {
+    -fx-text-fill: #cbd5e1;
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+}
+
+.tab:selected .tab-label {
+    -fx-text-fill: #ffffff;
+}
+
+/* Table View with Auto-Height and Text Wrapping */
+.table-view {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #cbd5e1;
+    -fx-border-width: 1px;
+    -fx-border-radius: 4px;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: #e2e8f0;
+}
+
+.table-view .column-header {
+    -fx-background-color: #e2e8f0;
+    -fx-border-color: #cbd5e1;
+    -fx-border-width: 0 1px 1px 0;
+    -fx-padding: 8px 10px;
+}
+
+.table-view .column-header .label {
+    -fx-text-fill: #0f172a;
+    -fx-font-weight: bold;
+    -fx-font-size: 12px;
+    -fx-wrap-text: true;
+}
+
+.table-row-cell {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #f1f5f9;
+    -fx-border-width: 0 0 1px 0;
+    -fx-cell-size: -1; /* Auto-grow row height so words are never cut in half */
+}
+
+.table-row-cell:odd {
+    -fx-background-color: #f8fafc;
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #dbeafe;
+}
+
+.table-cell {
+    -fx-text-fill: #0f172a;
+    -fx-font-size: 12px;
+    -fx-padding: 8px 10px;
+    -fx-wrap-text: true; /* Wrap cell text */
+    -fx-alignment: CENTER-LEFT;
+}
+
+/* Form Controls */
+.text-field {
+    -fx-background-color: #ffffff;
+    -fx-text-fill: #0f172a;
+    -fx-border-color: #cbd5e1;
+    -fx-border-radius: 4px;
+    -fx-padding: 7 10;
+    -fx-font-size: 12px;
+}
+
+.text-field:focused {
+    -fx-border-color: #2563eb;
+}
+
+.combo-box {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #cbd5e1;
+    -fx-border-radius: 4px;
+    -fx-padding: 4 8;
+}
+
+.combo-box .list-cell {
+    -fx-text-fill: #0f172a;
+}
+
+.text-area {
+    -fx-background-color: #ffffff;
+    -fx-text-fill: #0f172a;
+    -fx-border-color: #cbd5e1;
+    -fx-border-radius: 4px;
+    -fx-font-size: 12px;
+    -fx-wrap-text: true;
+}
+
+.text-area .content {
+    -fx-background-color: #ffffff;
+}
+
+.button {
+    -fx-background-radius: 4px;
+    -fx-cursor: hand;
+    -fx-font-size: 12px;
+}
